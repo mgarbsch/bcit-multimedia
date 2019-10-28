@@ -1,0 +1,130 @@
+{
+	"items": [
+		{
+			"name": "Injured/Ill worker",
+			"image": { "src": "images/person_3.png", "width": 386, "height": 370 },
+			"priorities": [
+				{ "text": "Recovery" },
+				{ "text": "Pain/symptom management" },
+				{ "text": "Ensuring benefits received/paid" },
+				{ "text": "Ensuring claim continues" },
+				{ "text": "Communication with all parties: family, doctor, employer, insurer" }
+			],
+			"challenges": [
+				{ "text": "Fear of re-injury" },
+				{ "text": "Being pushed to return to work before feeling ready" },
+				{ "text": "Uncertainty with what is happening at work while away" },
+				{ "text": "Concern with what employer and co-workers think" },
+				{ "text": "Claim eligibility and continuing to prove need for benefits" }
+			]
+		},
+		{
+			"name": "Direct Supervisor",
+			"image": { "src": "images/person_1.png", "width": 386, "height": 370 },
+			"priorities": [
+				{ "text": "Productivity" },
+				{ "text": "Replacement of absent worker" },
+				{ "text": "raining replacement workers" },
+				{ "text": "Containing costs associated with absence" },
+				{ "text": "Communication with union, absent worker and co-workers" }
+			],
+			"challenges": [
+				{ "text": "Creating return to work opportunities" },
+				{ "text": "Cost of supporting return to work" },
+				{ "text": "Co-worker complaints" },
+				{ "text": "Administration time to manage the absent worker’s claim" },
+				{ "text": "Work slow down or disruption caused by absence and then return to work" }
+			]
+		},
+		{
+			"name": "Union Representative",
+			"image": { "src": "images/person_5.png", "width": 386, "height": 370 },
+			"priorities": [
+				{ "text": "Worker receiving benefits to which they are entitled" },
+				{ "text": "Advocating for rights of absent worker and co-workers" },
+				{ "text": "Protecting Collective Agreement" },
+				{ "text": "Participating in incident investigation to ensure safe workplace" }
+			],
+			"challenges": [
+				{ "text": "Ensuring member is paid appropriately and in a timely manner" },
+				{ "text": "Members being injured" },
+				{ "text": "Members being re-injured" },
+				{ "text": "Ensuring overtime, training opportunities are assigned by seniority" },
+				{ "text": "Members being supported in return to work efforts (supported by management, insurer and co-workers)" }
+			]
+		},
+		{
+			"name": "Physician",
+			"image": { "src": "images/person_4.png", "width": 386, "height": 370 },
+			"priorities": [
+				{ "text": "Recovery" },
+				{ "text": "Symptom management" },
+				{ "text": "Referrals for diagnostic tests or specialists are done in a timely manner" },
+				{ "text": "Confidentiality of patient’s information" },
+				{ "text": "Being a patient advocate" }
+			],
+			"challenges": [
+				{ "text": "Seeing the patient for follow up at an appropriate time" },
+				{ "text": "Understanding the patient’s job and return to work opportunities" },
+				{ "text": "Completing paperwork in a timely manner" },
+				{ "text": "Communicating with employer and insurer on claim and return to work" },
+				{ "text": "Supporting return to work in a timely and appropriate manner" }
+			]
+		},
+		{
+			"name": "Insurance Provider",
+			"image": { "src": "images/person_6.png", "width": 386, "height": 370 },
+			"priorities": [
+				{ "text": "Contain costs of claim" },
+				{ "text": "Validate eligibility for claim" },
+				{ "text": "Conclude claim quickly" }
+			],
+			"challenges": [
+				{ "text": "Communication with worker" },
+				{ "text": "Explaining insurance process to worker" },
+				{ "text": "Obtaining medical documentation to support claim" },
+				{ "text": "Working with employer, worker and physician on return to work opportunities" }
+			]
+		},
+		{
+			"name": "Co-Workers",
+			"image": { "src": "images/person_2.png", "width": 386, "height": 370 },
+			"priorities": [
+				{ "text": "Doing their own job well" },
+				{ "text": "Maintaining health and wellness at work" },
+				{ "text": "Avoiding injury" }
+			],
+			"challenges": [
+				{ "text": "Working harder because of the absent worker" },
+				{ "text": "Training for a new job to cover the absence" },
+				{ "text": "Fear of injury" },
+				{ "text": "Increased overtime" },
+				{ "text": "Less recovery time or shortened breaks" },
+				{ "text": "Doing a job they are not accustomed to" },
+				{ "text": "Not having their rights violated under the collective agreement" }
+			]
+		},
+		{
+			"name": "Disability Case Management Professional",
+			"image": { "src": "images/person_7.png", "width": 386, "height": 370 },
+			"priorities": [
+				{ "text": "Communicating with all stakeholders on absence duration" },
+				{ "text": "Communicating with absent worker in a timely and regular manner" },
+				{ "text": "Ensuring worker receiving appropriate medical treatment" },
+				{ "text": "Ensuring worker receiving benefits they are entitled to" },
+				{ "text": "Understanding the worker’s job and how the job demands might impact return to work efforts" },
+				{ "text": "Exploring temporary accommodation measures to support return to work" }
+			],
+			"challenges": [
+				{ "text": "Health and wellness of worker – potential for delay in recovery or re-injury" },
+				{ "text": "Adequate medical intervention starting with correct diagnosis" },
+				{ "text": "Trust and cooperation of the physician or healthcare team" },
+				{ "text": "Cooperation and support from insurance provider" },
+				{ "text": "Understanding worker’s progress in rehabilitation " },
+				{ "text": "Cooperation with supervisors, union, co-workers on return to work opportunities" },
+				{ "text": "Managing a large case load" },
+				{ "text": "Safe and sustainable return to work plans implemented at the right time" }
+			]
+		}
+	]
+}

@@ -1,0 +1,257 @@
+.gradient {
+   filter: none;
+}
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+img, fieldset {
+	border: 0;
+}
+a {
+	text-decoration: none;
+}
+html {
+    height:100%;
+    width:100%;
+}
+body {
+    min-height: 300px;
+	min-width: 300px;
+    width: 100%;
+    background-color: #272B30;
+    color: #AAAAAA;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+}
+
+.container-page {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+/*** PANELS ***/
+.panel-listing {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: auto;
+	top: 500px;
+	bottom: auto;
+	height: 100px;
+	padding: 2px;
+	background-color: #a0a0a0;
+}
+.panel-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: auto;
+	top: 45px;
+	bottom: auto;
+	height: 455px;
+}
+.panel-portrait {
+	position: absolute;
+	left: 0;
+	right: auto;
+	width: 480px;
+	top: 0;
+	bottom: 0;
+	height: auto;
+	background-color: #f0f0f0;
+}
+.panel-info {
+	position: absolute;
+	left: 480px;
+	right: 0;
+	width: auto;
+	top: 0;
+	bottom: 0;
+	height: auto;
+}
+.panel-info1 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 50%;
+	background-color: #f0f0f0;
+}
+.panel-info2 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	bottom: 0;
+	background-color: #f0f0f0;
+}
+.list-info {
+	list-style: circle;
+}
+.list-info > li:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+/*** LISTING ***/
+.panel-listing > ul > li {
+	display: inline-block;
+	max-width: 118px;
+	width: 92px;
+	height: 92px;
+	margin: 2px;
+	padding: 2px;
+	background-color: #f8f8f8;
+	border-radius: 4px;
+}
+.panel-listing > ul > li.active {
+	background-color: #c0f0ff;
+}
+
+/*** FOLDER PANEL ***/
+.panel-folder {
+	margin: 4px;
+	overflow: hidden;
+    height: calc(100% - 8px);
+	color: #607075;
+    background-color: rgba(238, 232, 240, 0.5);
+    border: 0;
+    border: 2px solid #202828;
+    border-radius: 8px;
+}
+.panel-folder .panel-heading {
+	display: inline-block;
+	min-width: 250px;
+	padding: 4px;
+	color: #405055;
+    background-color: rgba(32,32,32,0.25);
+    border-bottom-right-radius: 10px;
+    padding-bottom: 5px;
+}
+.panel-folder .panel-body {
+	margin-top: 4px;
+	padding: 4px 8px;
+	height: calc(100% - 46px);
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.panel-title {
+	font-size: 18px;
+	font-family: "Verdana";
+	font-weight: bold;
+}
+
+/*** PORTRAIT PANEL ***/
+.frame-panel {
+	margin: 4px;
+	padding: 4px;
+	height: calc(100% - 8px);
+	border: 2px solid #506068;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.rows-portrait {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	max-height: 320px;
+	margin-top: -125px;
+	overflow: hidden;
+}
+.row-portrait {
+	margin: 2px 0;
+}
+.frame-portrait {
+	margin: 10px auto;
+	padding: 4px;
+	max-width: 200px;
+	border: 1px solid #e0e0e0;
+	text-align: center;
+}
+.frame-portrait-name {
+	margin: 8px auto;
+	text-align: center;
+}
+.frame-portrait-name > span {
+	font-size: 18px;
+	color: #808080;
+}
+/*** MEDIA QUERIES ***/
+@media (min-width:320px) and (max-width:624px) {
+	.panel-listing {
+		left: 0;
+		right: auto;
+		width: 100px;
+		top: 45px;
+		bottom: 0;
+		height: auto;
+	}
+	.panel-listing > ul > li {
+		display: block;
+		max-width: 96px;
+	}
+	.panel-content {
+		left: 100px;
+		right: 0;
+		width: auto;
+		top:45px;
+		bottom: 0;
+		height: auto;
+	}
+	.panel-portrait {
+		left: 0;
+		right: 0;
+		width: auto;
+		top: 0;
+		bottom: auto;
+		height: 320px;
+	}
+	.panel-info {
+		left: 0;
+		right: 0;
+		width: auto;
+		top: auto;
+		bottom: 0;
+		height: calc(100% - 320px);
+	}
+}
+@media (min-width:625px) and (max-width: 844px) {
+	.panel-listing {
+		left: 0;
+		right: 0;
+		width: auto;
+		top: auto;
+		bottom: 0;
+		height: 100px;
+	}
+	.panel-content {
+		left: 0;
+		right: 0;
+		width: auto;
+		top:45px;
+		bottom: 100px;
+		height: auto;
+	}
+	.panel-portrait {
+		left: 0;
+		right: auto;
+		width: 360px;
+		top: 0;
+		bottom: 0;
+		height: auto;
+	}
+	.panel-info {
+		left: 360px;
+		right: 0;
+		width: auto;
+		top: 0;
+		bottom: 0;
+		height: auto;
+	}
+}
